@@ -1,0 +1,26 @@
+body {
+    background-color: #6F4E37; /* Coffee brown color */
+    color: #d3d3d3; /* Default text color set to light grey */
+}
+
+a {
+    color: #ffc107;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    color: white; /* This sets the default color for any text inside the jumbotron */
+    background-color: #6F4E37; /* Ensure jumbotron matches body */
+}
+
+.jumbotron h1 {
+    color: white; /* Ensure 'Coffee & WiFi' is white */
+}
+
+.space-above {
+    margin-top: 20px;
+    padding-top: 20px;
+}
